@@ -1,7 +1,7 @@
 node {
 	// Define the label of the agent where you want to run the pipeline
 	//label 'mylabel'
-	stage('Checkout') {
+	stage('Checkout-prepared') {
 		// Checkout code from the Git repository
 		sh 'echo checking out'
 	}
